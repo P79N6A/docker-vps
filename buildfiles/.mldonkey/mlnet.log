@@ -1,0 +1,235 @@
+2018/01/07 11:55:17 [cO] Started logging...
+2018/01/07 11:55:17 [dcCO] LETS reverse clients list NOW
+2018/01/07 11:55:17 [cCO] Options correctly saved
+2018/01/07 11:55:17 [dMain] Check http://www.mldonkey.org for updates
+2018/01/07 11:55:17 [dMain] enabling networks: 
+2018/01/07 11:55:17 [dMain] ---- enabling Donkey ----
+2018/01/07 11:55:17 [EDK] loading sources completed
+2018/01/07 11:55:17 [dMain] using port 9921 (client_port TCP)
+2018/01/07 11:55:17 [dMain] using port 9925 (client_port UDP)
+2018/01/07 11:55:17 [dMain] ---- enabling FileTP ----
+2018/01/07 11:55:17 [dMain] ---- enabling interfaces ----
+2018/01/07 11:55:17 [dMain] using port 4080 (http_port)
+2018/01/07 11:55:17 [dMain] using port 4000 (telnet_port)
+2018/01/07 11:55:17 [dMain] using port 4001 (gui_port)
+2018/01/07 11:55:17 [dMain] disabled networks: BitTorrent Fasttrack Direct Connect 
+2018/01/07 11:55:17 [BT] Updating options to version 1
+2018/01/07 11:55:17 [dMain] To command: telnet 127.0.0.1 4000
+2018/01/07 11:55:17 [dMain] Or with browser: http://127.0.0.1:4080
+2018/01/07 11:55:17 [dMain] For a GUI check out http://sancho-gui.sourceforge.net
+2018/01/07 11:55:17 [dMain] Connect to IP 127.0.0.1, port 4001
+2018/01/07 11:55:17 [dMain] If you connect from a remote machine adjust allowed_ips
+2018/01/07 11:55:17 [cCO] Options correctly saved
+2018/01/07 11:55:17 [dMain] Core started
+2018/01/07 11:55:18 [cWeb] request geoip.dat (http://www.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz)
+2018/01/07 11:55:18 [cWeb] request hublist (http://dchublist.com/hublist.config.bz2)
+2018/01/07 11:55:18 [cWeb] request server.met (http://www.gruk.org/server.met.gz)
+2018/01/07 11:55:18 [cWeb] request guarding.p2p (http://upd.emule-security.org/ipfilter.zip)
+2018/01/07 11:55:18 [cWeb] request nodes.gzip (http://update.kceasy.com/update/fasttrack/nodes.gzip)
+2018/01/07 11:55:22 [EDK] There are no ED2K-servers in your servers.ini.
+2018/01/07 11:55:22 [EDK] Please import servers from a server.met file.
+2018/01/07 11:55:22 [EDK] Let MLDonkey use a file configured in web_infos
+2018/01/07 11:55:22 [EDK] or enter this link into MLDonkey:
+2018/01/07 11:55:22 [EDK] ed2k://|serverlist|http://www.gruk.org/server.met.gz|/
+2018/01/07 11:55:29 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 11:55:29 [EDK] 10 servers found, 10 new ones inserted
+[TCP_BS]: BUFFER OVERFLOW 0+56000> 50000 MESSAGE: [(174)(39)(30)(220)(52)(174)(102)(158)(238)(53)(207)(78)(46)(239)(116)(165)(140)(102)(27)(70)...]
+2018/01/07 11:55:30 [bS] Invalid_argument("String.sub / Bytes.sub") : unexpected exn exec can_read
+2018/01/07 11:55:32 [Geo] country edition database loaded
+2018/01/07 11:55:38 [DNS] could not resolve update.kceasy.com, check URL
+2018/01/07 11:55:38 [dMain] Received SIGINT, stopping MLDonkey...
+2018/01/07 11:55:38 [cCO] Options correctly saved
+2018/01/07 11:55:39 [cCO] Sources correctly saved
+2018/01/07 11:55:39 [cCO] Options backup as .tar.gz correctly saved
+2018/01/07 11:55:39 [dMain] Core stopped
+2018/01/07 11:57:53 [cO] Started logging...
+2018/01/07 13:17:11 [cO] Started logging...
+2018/01/07 13:17:11 [dcCO] LETS reverse clients list NOW
+2018/01/07 13:17:11 [cCO] Options correctly saved
+2018/01/07 13:17:11 [dMain] loading geoip.dat from web_infos/GeoIP.dat.gz
+2018/01/07 13:17:11 [Geo] country edition database loaded
+2018/01/07 13:17:11 [dMain] loading server.met from web_infos/server.met.gz
+2018/01/07 13:17:11 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:17:11 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:17:11 [dMain] Check http://www.mldonkey.org for updates
+2018/01/07 13:17:11 [dMain] enabling networks: 
+2018/01/07 13:17:11 [dMain] ---- enabling Donkey ----
+2018/01/07 13:17:11 [EDK] loading sources completed
+2018/01/07 13:17:11 [dMain] using port 9921 (client_port TCP)
+2018/01/07 13:17:11 [dMain] using port 9925 (client_port UDP)
+2018/01/07 13:17:11 [dMain] using port 7659 (overnet_port TCP+UDP)
+2018/01/07 13:17:11 [dMain] using port 9180 (kademlia_port UDP)
+2018/01/07 13:17:11 [dMain] ---- enabling BitTorrent ----
+
+Exception: bind failed: Address already in use at port 6881
+This is normally caused by another application currently using this port.
+Close that application and restart MLDonkey, exiting...
+2018/01/07 13:18:06 [cO] Started logging...
+2018/01/07 13:18:06 [dcCO] LETS reverse clients list NOW
+2018/01/07 13:18:06 [cCO] Options correctly saved
+2018/01/07 13:18:06 [dMain] loading geoip.dat from web_infos/GeoIP.dat.gz
+2018/01/07 13:18:06 [Geo] country edition database loaded
+2018/01/07 13:18:06 [dMain] loading server.met from web_infos/server.met.gz
+2018/01/07 13:18:06 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:18:06 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:18:06 [dMain] Check http://www.mldonkey.org for updates
+2018/01/07 13:18:06 [dMain] enabling networks: 
+2018/01/07 13:18:06 [dMain] ---- enabling Donkey ----
+2018/01/07 13:18:06 [EDK] loading sources completed
+2018/01/07 13:18:06 [dMain] using port 9921 (client_port TCP)
+2018/01/07 13:18:06 [dMain] using port 9925 (client_port UDP)
+2018/01/07 13:18:06 [dMain] using port 7659 (overnet_port TCP+UDP)
+2018/01/07 13:18:06 [dMain] using port 9180 (kademlia_port UDP)
+2018/01/07 13:18:06 [dMain] ---- enabling BitTorrent ----
+2018/01/07 13:18:06 [bTM] starting DHT on port 15009
+2018/01/07 13:18:06 [dMain] using port 6882 (client_port TCP)
+2018/01/07 13:18:06 [dMain] using port 6881 (tracker_port TCP)
+2018/01/07 13:18:06 [dMain] using port 15009 (dht_port UDP)
+2018/01/07 13:18:06 [dMain] ---- enabling FileTP ----
+2018/01/07 13:18:06 [dMain] ---- enabling interfaces ----
+2018/01/07 13:18:06 [dMain] using port 1982 (http_port)
+2018/01/07 13:18:06 [dMain] using port 4000 (telnet_port)
+2018/01/07 13:18:06 [dMain] using port 4001 (gui_port)
+2018/01/07 13:18:06 [dMain] disabled networks: Fasttrack Direct Connect 
+2018/01/07 13:18:06 [dMain] To command: telnet 127.0.0.1 4000
+2018/01/07 13:18:06 [dMain] Or with browser: http://127.0.0.1:1982
+2018/01/07 13:18:06 [dMain] For a GUI check out http://sancho-gui.sourceforge.net
+2018/01/07 13:18:06 [dMain] Connect to IP 127.0.0.1, port 4001
+2018/01/07 13:18:06 [dMain] If you connect from a remote machine adjust allowed_ips
+2018/01/07 13:18:06 [cCO] Options correctly saved
+2018/01/07 13:18:06 [dMain] Core started
+2018/01/07 13:18:07 [cWeb] request geoip.dat (http://www.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz)
+2018/01/07 13:18:07 [cWeb] request server.met (http://www.gruk.org/server.met.gz)
+2018/01/07 13:18:07 [cWeb] request hublist (http://dchublist.com/hublist.config.bz2)
+2018/01/07 13:18:07 [cWeb] request guarding.p2p (http://upd.emule-security.org/ipfilter.zip)
+2018/01/07 13:18:07 [cWeb] request nodes.gzip (http://update.kceasy.com/update/fasttrack/nodes.gzip)
+2018/01/07 13:18:32 [cWeb] already loaded local version of web_infos/GeoIP.dat.gz (14:39  Fri 05 Jan 2018), HTML header (Fri, 05 Jan 2018 14:39:16 GMT)
+2018/01/07 13:18:34 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:18:34 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:18:35 [HTTPsv] connection from 192.168.3.3 rejected (see allowed_ips setting)
+2018/01/07 13:18:35 [bS] close failed: Bad file descriptor : unexpected exn exec can_read
+2018/01/07 13:18:36 [HTTPsv] connection from 192.168.3.3 rejected (see allowed_ips setting)
+2018/01/07 13:18:36 [bS] close failed: Bad file descriptor : unexpected exn exec can_read
+2018/01/07 13:18:36 [HTTPsv] connection from 192.168.3.3 rejected (see allowed_ips setting)
+2018/01/07 13:18:36 [bS] close failed: Bad file descriptor : unexpected exn exec can_read
+2018/01/07 13:18:38 [DNS] could not resolve update.kceasy.com, check URL
+2018/01/07 13:18:45 [bS] exec closed : unexpected exn Sys_error("web_infos//: Is a directory")
+2018/01/07 13:18:56 [dMain] Received SIGINT, stopping MLDonkey...
+2018/01/07 13:18:56 [cCO] Options correctly saved
+2018/01/07 13:18:56 [cCO] Sources correctly saved
+2018/01/07 13:18:56 [cCO] Options backup as .tar.gz correctly saved
+2018/01/07 13:18:56 [dMain] Core stopped
+2018/01/07 13:20:31 [cO] Started logging...
+2018/01/07 13:20:31 [dcCO] LETS reverse clients list NOW
+2018/01/07 13:20:31 [cCO] Options correctly saved
+2018/01/07 13:20:31 [dMain] loading geoip.dat from web_infos/GeoIP.dat.gz
+2018/01/07 13:20:31 [Geo] country edition database loaded
+2018/01/07 13:20:31 [dMain] loading server.met from web_infos/server.met.gz
+2018/01/07 13:20:31 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:20:31 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:20:31 [dMain] Check http://www.mldonkey.org for updates
+2018/01/07 13:20:31 [dMain] enabling networks: 
+2018/01/07 13:20:31 [dMain] ---- enabling Donkey ----
+2018/01/07 13:20:31 [EDK] loading sources completed
+2018/01/07 13:20:31 [dMain] using port 9921 (client_port TCP)
+2018/01/07 13:20:31 [dMain] using port 9925 (client_port UDP)
+2018/01/07 13:20:31 [dMain] using port 7659 (overnet_port TCP+UDP)
+2018/01/07 13:20:31 [dMain] using port 9180 (kademlia_port UDP)
+2018/01/07 13:20:31 [dMain] ---- enabling BitTorrent ----
+2018/01/07 13:20:31 [bTM] starting DHT on port 15009
+2018/01/07 13:20:31 [dMain] using port 6882 (client_port TCP)
+2018/01/07 13:20:31 [dMain] using port 6881 (tracker_port TCP)
+2018/01/07 13:20:31 [dMain] using port 15009 (dht_port UDP)
+2018/01/07 13:20:31 [dMain] ---- enabling FileTP ----
+2018/01/07 13:20:31 [dMain] ---- enabling interfaces ----
+2018/01/07 13:20:31 [dMain] using port 1982 (http_port)
+2018/01/07 13:20:31 [dMain] using port 4000 (telnet_port)
+2018/01/07 13:20:31 [dMain] using port 4001 (gui_port)
+2018/01/07 13:20:31 [dMain] disabled networks: Fasttrack Direct Connect 
+2018/01/07 13:20:31 [dMain] To command: telnet 127.0.0.1 4000
+2018/01/07 13:20:31 [dMain] Or with browser: http://127.0.0.1:1982
+2018/01/07 13:20:31 [dMain] For a GUI check out http://sancho-gui.sourceforge.net
+2018/01/07 13:20:31 [dMain] Connect to IP 127.0.0.1, port 4001
+2018/01/07 13:20:31 [dMain] If you connect from a remote machine adjust allowed_ips
+2018/01/07 13:20:31 [cCO] Options correctly saved
+2018/01/07 13:20:31 [dMain] Core started
+2018/01/07 13:20:32 [dIve] SECURITY WARNING: user admin has an empty password, use command: useradd admin password
+2018/01/07 13:20:32 [cWeb] request geoip.dat (http://www.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz)
+2018/01/07 13:20:32 [cWeb] request hublist (http://dchublist.com/hublist.config.bz2)
+2018/01/07 13:20:32 [cWeb] request server.met (http://www.gruk.org/server.met.gz)
+2018/01/07 13:20:32 [cWeb] request guarding.p2p (http://upd.emule-security.org/ipfilter.zip)
+2018/01/07 13:20:32 [cWeb] request nodes.gzip (http://update.kceasy.com/update/fasttrack/nodes.gzip)
+2018/01/07 13:20:43 [cWeb] already loaded local version of web_infos/GeoIP.dat.gz (14:39  Fri 05 Jan 2018), HTML header (Fri, 05 Jan 2018 14:39:16 GMT)
+2018/01/07 13:20:43 [DNS] could not resolve update.kceasy.com, check URL
+2018/01/07 13:20:44 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:20:44 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:21:06 [bS] exec closed : unexpected exn Sys_error("web_infos//: Is a directory")
+2018/01/07 13:21:36 [IPblock] loading web_infos/ipfilter.zip
+2018/01/07 13:21:36 [IPblock] guarding.p2p found in zip file
+2018/01/07 13:21:37 [IPblock] 216963 ranges loaded - optimized to 196548
+2018/01/07 13:21:37 [cSe] Disconnected server !! www.Sharing-Devils.org No.1 !! (195.154.109.229:4232), IP is now blocked
+2018/01/07 13:26:45 [dIve] SECURITY WARNING: user admin has an empty password, use command: useradd admin password
+2018/01/07 13:30:29 [dMain] Received SIGINT, stopping MLDonkey...
+2018/01/07 13:30:29 [cCO] Options correctly saved
+2018/01/07 13:30:29 [cCO] Sources correctly saved
+2018/01/07 13:30:29 [cCO] Options backup as .tar.gz correctly saved
+2018/01/07 13:30:29 [dMain] Core stopped
+2018/01/07 13:32:55 [cO] Started logging...
+2018/01/07 13:32:55 [dcCO] LETS reverse clients list NOW
+2018/01/07 13:32:55 [cCO] Options correctly saved
+2018/01/07 13:32:55 [dMain] loading geoip.dat from web_infos/GeoIP.dat.gz
+2018/01/07 13:32:55 [Geo] country edition database loaded
+2018/01/07 13:32:55 [dMain] loading server.met from web_infos/server.met.gz
+2018/01/07 13:32:55 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:32:55 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:32:55 [dMain] loading guarding.p2p from web_infos/ipfilter.zip
+2018/01/07 13:32:55 [IPblock] loading web_infos/ipfilter.zip
+2018/01/07 13:32:55 [IPblock] guarding.p2p found in zip file
+2018/01/07 13:32:56 [IPblock] 216963 ranges loaded - optimized to 196548
+2018/01/07 13:32:56 [dMain] Check http://www.mldonkey.org for updates
+2018/01/07 13:32:56 [dMain] enabling networks: 
+2018/01/07 13:32:56 [dMain] ---- enabling Donkey ----
+2018/01/07 13:32:56 [EDK] loading sources completed
+2018/01/07 13:32:56 [dMain] using port 9921 (client_port TCP)
+2018/01/07 13:32:56 [dMain] using port 9925 (client_port UDP)
+2018/01/07 13:32:56 [dMain] using port 7659 (overnet_port TCP+UDP)
+2018/01/07 13:32:56 [dMain] using port 9180 (kademlia_port UDP)
+2018/01/07 13:32:56 [dMain] ---- enabling BitTorrent ----
+2018/01/07 13:32:56 [bTM] starting DHT on port 15009
+2018/01/07 13:32:56 [dMain] using port 6882 (client_port TCP)
+2018/01/07 13:32:56 [dMain] using port 6881 (tracker_port TCP)
+2018/01/07 13:32:56 [dMain] using port 15009 (dht_port UDP)
+2018/01/07 13:32:56 [dMain] ---- enabling FileTP ----
+2018/01/07 13:32:56 [dMain] ---- enabling interfaces ----
+2018/01/07 13:32:56 [dMain] using port 1982 (http_port)
+2018/01/07 13:32:56 [dMain] using port 4000 (telnet_port)
+2018/01/07 13:32:56 [dMain] using port 4001 (gui_port)
+2018/01/07 13:32:56 [dMain] disabled networks: Fasttrack Direct Connect 
+2018/01/07 13:32:56 [dMain] To command: telnet 127.0.0.1 4000
+2018/01/07 13:32:56 [dMain] Or with browser: http://127.0.0.1:1982
+2018/01/07 13:32:56 [dMain] For a GUI check out http://sancho-gui.sourceforge.net
+2018/01/07 13:32:56 [dMain] Connect to IP 127.0.0.1, port 4001
+2018/01/07 13:32:56 [dMain] If you connect from a remote machine adjust allowed_ips
+2018/01/07 13:32:56 [cCO] Options correctly saved
+2018/01/07 13:32:56 [dMain] Core started
+2018/01/07 13:32:57 [cWeb] request geoip.dat (http://www.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz)
+2018/01/07 13:32:57 [cWeb] request server.met (http://www.gruk.org/server.met.gz)
+2018/01/07 13:32:57 [cWeb] request hublist (http://dchublist.com/hublist.config.bz2)
+2018/01/07 13:32:57 [cWeb] request guarding.p2p (http://upd.emule-security.org/ipfilter.zip)
+2018/01/07 13:32:57 [cWeb] request nodes.gzip (http://update.kceasy.com/update/fasttrack/nodes.gzip)
+2018/01/07 13:33:05 [dIve] SECURITY WARNING: user admin has an empty password, use command: useradd admin password
+2018/01/07 13:33:07 [cWeb] already loaded local version of web_infos/GeoIP.dat.gz (14:39  Fri 05 Jan 2018), HTML header (Fri, 05 Jan 2018 14:39:16 GMT)
+2018/01/07 13:33:07 [DNS] could not resolve update.kceasy.com, check URL
+2018/01/07 13:33:07 [cWeb] already loaded local version of web_infos/ipfilter.zip (10:05  Fri 05 Jan 2018), HTML header (Fri, 05 Jan 2018 10:05:48 GMT)
+2018/01/07 13:33:08 [EDK] server.met loaded from http://www.gruk.org/server.met.gz
+2018/01/07 13:33:08 [EDK] 10 servers found, 0 new ones inserted
+2018/01/07 13:33:09 [dMain] Received SIGINT, stopping MLDonkey...
+2018/01/07 13:33:09 [cCO] Options correctly saved
+2018/01/07 13:33:09 [cCO] Sources correctly saved
+2018/01/07 13:33:09 [cCO] Options backup as .tar.gz correctly saved
+2018/01/07 13:33:09 [dMain] Core stopped
+2018/01/07 13:33:54 [cO] Started logging...
+2018/01/07 13:33:54 Setting option log_to_syslog
+2018/01/07 13:33:54 [cO] activated syslog
+2018/01/07 13:33:54 Setting option log_file
+2018/01/07 13:33:54 [cO] Logging in /home/xy/.mldonkey//dev/null

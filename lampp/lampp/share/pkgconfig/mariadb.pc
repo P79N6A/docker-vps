@@ -1,0 +1,23 @@
+# these four variables are present in almost every .pc file
+prefix=/opt/lampp
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/mysql
+# those are rarely present or not at all, but we export them regardless
+bindir=${prefix}/bin
+sbindir=${prefix}/sbin
+scriptdir=${prefix}//opt/lampp/bin
+plugindir=${prefix}/lib/mysql/plugin
+docdir=${prefix}/docs
+mandir=${prefix}/man
+sharedir=${prefix}/share
+mysqlsharedir=${prefix}/share
+mysqltestdir=${prefix}/mysql-test
+socket=/tmp/mysql.sock
+
+Name: MariaDB
+Description: MariaDB: a very fast and robust SQL database server
+URL: http://mariadb.org
+Version: 10.1.39
+Libs: -L${libdir} -lmysqlclient -lpthread -lz -lm -lssl -lcrypto
+Cflags: -I${includedir} -I${includedir}/.. 

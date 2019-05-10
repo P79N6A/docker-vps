@@ -1,0 +1,16 @@
+{
+  "key": {
+    "algo": "rsa",
+    "size": 4096
+  },
+  "names": [
+    {
+      "O": "WLST",
+      "OU": "WLST Security",
+      "L": "Shanghai",
+      "ST": "Shanghai",
+      "C": "CN"
+    }
+  ],
+  "CN": "50sht.com"
+}
