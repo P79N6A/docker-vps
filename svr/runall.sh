@@ -9,11 +9,9 @@ echo "=== starting apache ==="
 /opt/lampp/xampp startapache
 
 echo "=== starting deluge-web ==="
-echo "start-stop-daemon -c xy --start --name deluge --background --exec /usr/bin/deluge-web -- -p 1926"
 start-stop-daemon -c xy --start --name deluge --background --exec /usr/bin/deluge-web -- -p 1926
 
 echo "=== starting mlnet ==="
-echo "start-stop-daemon -c xy --start --name mlnet --background --exec /usr/bin/mlnet"
 start-stop-daemon -c xy --start --name mlnet --background --exec /usr/bin/mlnet
 
 /bin/bash

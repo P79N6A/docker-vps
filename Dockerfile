@@ -28,7 +28,8 @@ RUN			/bin/echo 'root:administratorishere' |chpasswd;useradd -m xy;/bin/echo 'xy
 				/bin/echo 'export PATH=$PATH:/root/bin'>> /root/.bashrc; \
 				/bin/echo 'export PATH=$PATH:/root/svr'>> /root/.bashrc; \
 				mkdir -p /root/.config/deluge; cp /root/deluge/*.conf /root/.config/deluge; \
-				mkdir -p /home/incoming; chmod 777 /home/incoming; \
+				mkdir -p /home/xy/.config/deluge; cp /root/deluge/*.conf /home/xy/.config/deluge; \
+				mkdir -p /home/incoming; chown xy:xy /home/incoming; chmod 777 /home/incoming; \
 				mkdir -p /home/xy/.mldonkey; cp -rf /root/.mldonkey /home/xy; chown -R xy:xy /home/xy
 
 # CMD			"chown -R xy:xy /home/xy/.mldonkey"
