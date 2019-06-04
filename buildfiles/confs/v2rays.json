@@ -19,7 +19,7 @@
           "tti": 20,
           "uplinkCapacity": 5,
           "downlinkCapacity": 20,
-          "congestion": false,
+          "congestion": true,
           "readBufferSize": 1,
           "writeBufferSize": 1,
           "header": {
@@ -47,7 +47,6 @@
         },
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
           "certificates": [
             {
               "certificateFile": "/root/ca/v2ray.pem",

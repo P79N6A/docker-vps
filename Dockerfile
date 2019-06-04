@@ -3,7 +3,7 @@ MAINTAINER      X.Minamoto "xuyuan8720@189.cn"
 
 ENV 			DEBIAN_FRONTEND noninteractive
 
-EXPOSE		1920-1929 6880-6888
+EXPOSE		1920-1929 6880-6888 
 #tcp：1920-sss, 1921-ftp, 1922-ssh,1923-kod,1925-mlnet,1926-deluge 1927-v2ray
 #tcp/udp：6885-6888-deluge, 6880-ed/tcp, 6884-ed/udp, 6881,6882-bt, 6883-dht/udp
 
