@@ -1,0 +1,54 @@
+{
+    "log": {
+        "access": "/home/xy/docker-vps/laccess.log",
+        "error": "/home/xy/docker-vps/lerror.log",
+        "loglevel": "debug"
+    },
+    "inbounds": [
+        {
+            "port": 10808,
+            "listen": "127.0.0.1",
+            "protocol": "socks",
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            },
+            "settings": {
+                "auth": "noauth",
+                "udp": false
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "180.153.108.83",
+                        "port": 10843,
+                        "users": [
+                            {
+                                "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+                                "alterId": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "h2",
+                "httpSettings": {
+                    "path": "/ray"
+                },
+                "security": "tls",
+                "tlsSettings": {
+                    "allowInsecure": true
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+  "inbounds": [
+    {
+      "port": 1927,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "4aaafd42-869a-11e9-961e-000af77ee246",
+            "alterId": 6,
+            "security": "auto"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "mkcp",
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 20,
+          "uplinkCapacity": 5,
+          "downlinkCapacity": 20,
+          "congestion": false,
+          "readBufferSize": 1,
+          "writeBufferSize": 1,
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "port": 1928,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "f11a3b20-869a-11e9-91e2-aaaa000ef3c9",
+            "alterId": 6,
+            "security": "auto"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "h2",
+        "httpSettings": {
+          "path": "/xx"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "certificates": [
+            {
+              "certificateFile": "/root/ca/v2ray.pem",
+              "keyFile": "/root/ca/v2ray-key.pem"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
