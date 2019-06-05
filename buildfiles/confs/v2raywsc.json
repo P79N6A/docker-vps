@@ -24,11 +24,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "127.0.0.1",
-                        "port": 1927,
+                        "address": "v6.xyzjdays.xyz",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "4aaafd42-869a-11e9-961e-000af77ee246",
+                                "id": "f11a3b20-869a-11e9-91e2-aaaa000ef3c9",
                                 "alterId": 6
                             }
                         ]
@@ -36,14 +36,10 @@
                 ]
             },
             "streamSettings": {
-                "network": "mkcp",
-                "kcpSettings": {
-                    "uplinkCapacity": 5,
-                    "downlinkCapacity": 100,
-                    "congestion": true,
-                    "header": {
-                        "type": "none"
-                    }
+                "network": "ws",
+                "security": "tls",
+                "wsSettings": {
+                    "path": "/xx"
                 }
             }
         },
@@ -77,9 +73,7 @@
         "rules": [
             {
                 "type": "field",
-                "port": null,
                 "outboundTag": "proxy",
-                "ip": null,
                 "domain": [
                     "geosite:google",
                     "geosite:github",
